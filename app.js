@@ -1,11 +1,3 @@
-// const http = require('http');
-// const server=http.createServer((req,res)=>{
-//     console.log(req);
-//     console.log('anand naik')
-//     process.exit();
-// });
-
-// server.listen(4000);
 const http = require('http');
 
 const server = http.createServer((request, response) => {
